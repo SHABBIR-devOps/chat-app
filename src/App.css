@@ -1,0 +1,207 @@
+.chats {
+   
+    backdrop-filter: blur(5px);
+}
+
+
+  
+  /* Hide scrollbar for Firefox */
+  .chats {
+    scrollbar-width: none; /* Firefox */
+  }
+  .chatBox {
+    scrollbar-width: none; /* Firefox */
+  }
+  .massegeScroll{
+    scrollbar-width: none;
+  }
+
+
+
+
+
+
+
+
+
+
+/* for mobile device */
+@media (max-width: 575.98px){
+
+    /* RegistrationPage */
+
+    .registrationcontainer .warper {
+        width: 290px;
+        
+    }
+    .registrationcontainer .registrationTitle {
+        font-size: 25px;
+    }
+    .inputBox input {
+       font-size: 15px;
+        height: 50%;
+    }
+    .showPasswordLink .showPassword{
+        font-size: 15px;
+    }
+    
+    .formContainer .submitButton{
+        font-size: 15px;
+        width: 70%;
+        height: 35px;
+        margin-left: 30px;
+    }
+    .formContainer .loader{
+        font-size: 15px;
+        width: 70%;
+        height: 35px;
+        margin-left: 30px;
+    }
+    /* RegistrationPage */
+
+    /* LoginPage */
+    .main .LoginAnimetion{
+        display: none;
+    }
+    .main .warper{
+        width: 300px;
+    }
+    .inputBox input {
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none;
+        background: transparent;
+        border: 2px solid rgb(255, 255, 255, 0.2);
+        border-radius: 40px;
+        font-size: 14px;
+        color: #fff;
+        padding: 20px 45px 20px 20px;
+    }
+
+    .warper .rememberForgot {
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+        margin: -15px 0 15px;
+    }
+    .main .smalldevice{
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    /* LoginPage */
+
+
+
+    /* profile */
+
+    .customMaxWSm .customFirstLayer{
+      width: 80%;
+    }
+    .customMaxWSm .customSecondLayer{
+      width: 80%;
+    }
+    .customMxAuto .customMainContentLayer{
+        width: 80%;
+    }
+    
+.customTextStart .customEmail{
+    display: flex;
+    gap: 2px;
+    font-size: 12px;
+}
+.customTextStart .customPhone{
+    display: flex;
+    gap: 2px;
+    font-size: 12px;
+}
+.customTextStart .customAddress{
+    display: flex;
+    gap: 2px;
+    font-size: 12px;
+}
+.customTextStart .customLocation{
+    display: flex;
+    gap: 2px;
+    font-size: 12px;
+}
+.customMaxWSm{
+    display: flex;
+    justify-content: center;
+}
+.customMaxWSm .customFirstLayer{
+    display: none;
+    
+}
+.customMaxWSm .customSecondLayer{
+    display: none;
+    
+}
+.customMaxWSm .customMainContentLayer{
+    border-radius: 20px;
+}
+    /* profile */
+
+
+    /* navbar */
+
+   .mainnav .Navbar {
+   
+        backdrop-filter: blur(30px);
+
+    }
+   .mainnav2 .Navbar {
+   
+        backdrop-filter: blur(30px);
+
+    }
+    .blurchat {
+   
+        backdrop-filter: blur(30px);
+
+    }
+    .mainnav .notifitionPage {
+   
+        backdrop-filter: blur(2px);
+    }
+    .mainnav{
+        display: none;
+    }
+    .mainnav2{
+        display: block;
+    }
+
+    
+    .UserPage .buttoUser{
+        margin-left: 50px;
+    }
+
+
+    /* navbar */
+
+
+
+    /* chat */
+
+    .chatPage{
+        display: none;
+    }
+    .chatPageC{
+        display: block;
+    }
+    /* chat */
+
+
+
+
+}
+
+
+
+/* for tevlet and small laptop */
+@media (min-width:576px) and (max-width: 778.98px){}
+
+
+
+/* for laptop and small monitor */
+@media (min-width:779px) and (max-width: 991.98px){}
